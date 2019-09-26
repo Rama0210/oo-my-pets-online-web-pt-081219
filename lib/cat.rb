@@ -11,3 +11,13 @@
 # def buy_cat(name)
 #   Cat.new(name, self)
 # end
+
+class Cat
+  attr_reader :name
+  
+end 	  attr_accessor :mood
+  def initialize(name)
+    @name = name
+    @mood = "nervous"
+  end
+end
