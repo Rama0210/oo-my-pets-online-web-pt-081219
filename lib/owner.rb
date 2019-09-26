@@ -1,15 +1,15 @@
-class Owner
+
   
 
 
 
 
 
-# class Owner
-# attr_accessor :say_species, :mood, :dog
-# attr_reader :name, :species
-# @@all = []
-# def initialize(name)
+ class Owner
+ attr_accessor :say_species, :mood, :dog
+ attr_reader :name, :species
+ @@all = []
+ def initialize(name)
 #   @name = name
 #   @species = "human"
 #   @say_species = "I am a human."
