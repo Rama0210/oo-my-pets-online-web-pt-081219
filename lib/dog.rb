@@ -1,5 +1,6 @@
 class Dog 
-  attr_reader
+  attr_reader :name
+  attr_accessor :mood
 
 
 
