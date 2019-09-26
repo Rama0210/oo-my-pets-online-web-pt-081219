@@ -1,3 +1,9 @@
+class Dog 
+  
+
+
+
+
 # def buy_dog(name)
 #   Dog.new(name,self)
 # end
