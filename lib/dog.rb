@@ -1,26 +1,16 @@
-class Dog 
+class Dog
+  # code goes here
+  attr_accessor :mood, :owner
   attr_reader :name
-  attr_accessor :mood
-def initialize(name)
-@name = name
-@mood = hungry
+  @@all = []
+  def initialize(name, owner)
+    @name = name
+    @owner = owner
+    @mood = "nervous"
+    @@all << self
+  end
+  def self.all
+    @@all
+  end
+  
 end
-end
-# def buy_dog(name)
-#   Dog.new(name,self)
-# end
-# def walk_dogs
-#   Dog.all.select do |dog|
-#   dog.mood = "happy"
-# end
-# end
-# def feed_cats
-#   Cat.all.select do |cat|
-#     cat.mood = "happy"
-#   end
-# end
-# def sell_pets
-#   Dog.all.select do |dog|
-#   dog.mood = "nervous"
-#   dog.owner = nil
-# end
