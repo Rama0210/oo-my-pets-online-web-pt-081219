@@ -10,9 +10,11 @@ class Owner
   @mood = "nervous"
  end
  end
-# def self.all
-#   @@all
-# end
+ 
+def self.all
+  @@all
+end
+
 # def self.count
 #   all.count
 # end
