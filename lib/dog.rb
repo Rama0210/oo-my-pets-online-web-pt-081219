@@ -4,7 +4,7 @@ class Dog
 def initialize(name)
 @name = name
 @mood = hungry
-
+end
 
 # def buy_dog(name)
 #   Dog.new(name,self)
