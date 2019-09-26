@@ -7,11 +7,10 @@ def dogs
   Dog.all.select do |dog|
     dog.owner == self
   end
-end
 def buy_cat(name)
   Cat.new(name, self)
 end
-
+end
 # class Cat
 #   attr_reader :name
 #   attr_accessor :mood
