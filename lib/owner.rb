@@ -9,7 +9,7 @@ class Owner
   @@all << self
   @mood = "nervous"
  end
- end
+
  
 def self.all
   @@all
