@@ -10,12 +10,13 @@
  attr_reader :name, :species
  @@all = []
  def initialize(name)
-#   @name = name
-#   @species = "human"
-#   @say_species = "I am a human."
-#   @@all << self
-#   @mood = "nervous"
-# end
+  @name = name
+  @species = "human"
+  @say_species = "I am a human."
+  @@all << self
+  @mood = "nervous"
+ end
+ end
 # def self.all
 #   @@all
 # end
